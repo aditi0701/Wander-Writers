@@ -1,0 +1,42 @@
+
+body{
+    background: url("books.png");
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 60px;
+    color:  red;
+    
+}
+
+button {
+    margin: 20px;
+  padding: 19px 39px 18px 39px;
+  color: #000;
+  background-color: #00cccc;
+  font-size: 18px;
+  text-align: center;
+  font-style:  initial;
+  border-radius: 5px;
+  width:30%;
+  border: 2px solid  #000;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  
+}
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: 0.7;
+}
